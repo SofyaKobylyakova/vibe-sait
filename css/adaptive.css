@@ -767,6 +767,9 @@
         margin-top: 104px;
         margin-bottom: 108px;
     }
+    .section-distribution .container {
+    background-position-x: -250px;
+    }
 }
 
 
