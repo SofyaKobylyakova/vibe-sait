@@ -126,6 +126,9 @@
     }
 }
 @media screen and (max-width:378px){
+    nav ul{
+        margin-right: 0px;
+    }
     ul{
         margin-right: 0;
     }
