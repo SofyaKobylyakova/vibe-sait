@@ -137,6 +137,11 @@ nav ul li a:hover{
     background: linear-gradient(-134deg,#726c7c 0,#f3dcff 100%);
     animation: glow 3s infinite;
 }
+.header-tel{
+    display: flex;
+    align-items: center;
+    margin-bottom: 0px;
+}
 .tel{
     display: flex;
     align-items: center;
@@ -162,6 +167,9 @@ header .container{
 }
 .nav-visible{
     display: block;
+}
+.tel-off{
+    display: none;
 }
 
 

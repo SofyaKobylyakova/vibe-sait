@@ -98,8 +98,8 @@
     nav li{
         font-size: 14px;
     }
-    .header-tel p{
-        margin-bottom: 0;
+    .tel{
+        margin-left: 0;
     }
     .header-tel p img{
         max-height: 31px;
@@ -124,10 +124,16 @@
     .tel{
         padding-right: 0;
     }
+    .tel{
+        margin-left: -30px;
+    }
 }
 @media screen and (max-width:378px){
     nav ul{
         margin-right: 0px;
+    }
+    .tel{
+        margin-left: -60px;
     }
     ul{
         margin-right: 0;
