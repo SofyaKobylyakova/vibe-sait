@@ -650,7 +650,7 @@
     }
     .section-work-items{
         justify-content: space-around;
-        gap: none;
+        gap: 0;
     }
     .section-work-item p{
         max-width: 94px;
@@ -878,7 +878,7 @@
         font-size: 18px;
     }
     .image-icon{
-        width: 50 px;
+        width: 50px;
     }
     .footer-tel{
         margin-left: 0;

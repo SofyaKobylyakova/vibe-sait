@@ -113,8 +113,11 @@ nav ul{
 .link-about{
     border-bottom: 2px #E5B093 solid;
 }
-nav ul a{
+ul li{
+    list-style: none;
     margin-left: 32px;
+}
+nav ul li a{
     text-decoration: none;
     list-style: none;
     color: white;
@@ -128,7 +131,7 @@ nav ul .header-tel li{
     color: white;
     font-size: 16px;
 }
-nav ul a:hover{
+nav ul li a:hover{
     color: #34343F;
     transform: translate3d(0,0,0);
     background: linear-gradient(-134deg,#726c7c 0,#f3dcff 100%);
@@ -425,6 +428,9 @@ h2{
     max-width: 519px;
     max-height: 377px;
 }
+.section-price__image button:hover {
+	animation: bounce 1s;
+}
 .section-price__image button{
     width: 234px;
     height: 68px;
@@ -485,6 +491,9 @@ h2{
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+}
+.section-girl__text-button:hover {
+	animation: bounce 1s;
 }
 .section-girl__text-button button{
     width: 310px;
@@ -606,6 +615,9 @@ h2{
     align-items: flex-end;
     justify-content: flex-end;
 }
+.section-distribution .container .section-distribytion-wrapper button:hover {
+	animation: bounce 1s;
+}
 .section-distribution .container .section-distribytion-wrapper button{
     width: 409px;
     height: 98px;
@@ -716,6 +728,9 @@ form input[type=text], form input[type=tel]{
     font-size: 14px;
     margin-top: 25px;
 }
+.section-connection__button:hover {
+	animation: bounce 1s;
+}
 .section-connection__button{
     width: 334px;
     height: 102px;
@@ -793,7 +808,7 @@ footer .container{
     justify-content: space-around;
 }
 .footer-logo{
-    size: 170px 54.09px;
+    resize: 170px 54.09px;
     max-width: 170px;
     max-height: 54.09px;
 }
@@ -814,7 +829,7 @@ footer .container{
 .footer-image-info{
     display: flex;
 }
-.footer-nav ul a{
+.footer-nav ul li a{
     list-style: none;
     text-decoration: none;
     color: #34343F;
@@ -860,7 +875,7 @@ footer.container hr{
         font-size: 18px;
     }
     .image-icon{
-        width: 50 px;
+        width: 50px;
     }
     .footer-tel{
         margin-left: 0;
