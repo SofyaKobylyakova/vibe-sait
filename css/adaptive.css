@@ -455,10 +455,16 @@
         width: 300px;
     }
     .section-atmospher__image-text img {
-        margin-left: -40px;
+        margin-left: -110px;
     }
     .section-atmospher__image-text p {
-        margin-left: 0;
+        margin-left: -80px;
+    }
+    .section-atmospher__image-text img {
+        margin-left: -80px;
+    }
+    .section-atmospher__image-text p {
+        margin-left: 0px;
     }
 }
 
@@ -600,6 +606,12 @@
     }
     .section-price__text {
         margin-left: -210px;
+    }
+}
+
+@media screen and (max-width:378px){
+    .section-price__text {
+        margin-left: -140px;
     }
 }
 
