@@ -383,6 +383,14 @@
         min-width: 348px;
     }
 }
+@media screen and (max-width: 576px){
+    .section-atmospher__image-text img {
+        margin-left: -80px;
+    }
+    .section-atmospher__image-text p {
+        margin-left: 0px;
+    }
+}
 @media screen and (max-width:992px){
     .section-atmospher .container .section__title{
         z-index: 2;
@@ -462,9 +470,6 @@
     }
     .section-atmospher__image-text img {
         margin-left: -80px;
-    }
-    .section-atmospher__image-text p {
-        margin-left: 0px;
     }
 }
 
