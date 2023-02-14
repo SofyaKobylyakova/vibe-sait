@@ -59,6 +59,9 @@
         justify-content: space-between;
         padding:15px;
     }
+    nav ul li {
+        margin-left: 12px;
+    }
     .menu-burger{
         display: block;
         position: relative; 
@@ -432,8 +435,6 @@
         margin-left: 120px;
         max-width: 600px;
     }
-}
-@media screen and (max-width:768px){
     .section-atmospher .container .section__title{
         margin-top: -150px;
     }
@@ -453,6 +454,14 @@
         max-width: 400px;
     }
 }
+@media screen and (max-width:576px){
+    .section-atmospher__image-text img {
+        margin-left: -90px;
+    }
+    .section-atmospher__image-text p {
+        margin-left: -20px;
+    }
+}
 @media screen and (max-width:378px){
     .section-atmospher .container {
         margin-top: 210px;
@@ -466,10 +475,10 @@
         margin-left: -110px;
     }
     .section-atmospher__image-text p {
-        margin-left: -80px;
+        margin-left: 1;
     }
     .section-atmospher__image-text img {
-        margin-left: -80px;
+        margin-left: -110px;
     }
 }
 
