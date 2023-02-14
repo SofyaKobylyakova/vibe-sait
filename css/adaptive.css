@@ -742,8 +742,10 @@
         display: flex;
         gap: 20px;
     }
-    .section-work-item p{
+    .section-work-item p {
         margin-bottom: 0;
+        text-align: center;
+        max-width: 150px;
     }
     form{
         display: flex;
@@ -778,6 +780,9 @@
     .section-girl .container{
         background-position-y: 20px;
     }
+    .section-girl-wrapper {
+        margin-left: 187px;
+    }
     .item-text-3 {
         width: 104px;
         height: 45px;
@@ -804,6 +809,9 @@
     }
     .section-connection{
         display: none;
+    }
+    .section-price__text {
+    margin-left: -110px;
     }
 }
 
